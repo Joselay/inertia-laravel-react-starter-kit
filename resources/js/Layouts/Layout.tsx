@@ -1,3 +1,4 @@
+import { Link } from "@inertiajs/react";
 import React from "react";
 
 const Layout = ({ children }: React.ReactNode) => {
@@ -7,13 +8,13 @@ const Layout = ({ children }: React.ReactNode) => {
                 <nav>
                     <ul>
                         <li>
-                            <a href="/">Home</a>
+                            <Link href="/">Home</Link>
                         </li>
                         <li>
-                            <a href="/about">About</a>
+                            <Link href="/about">About</Link>
                         </li>
                         <li>
-                            <a href="/contact">Contact</a>
+                            <Link href="/contact">Contact</Link>
                         </li>
                     </ul>
                 </nav>
